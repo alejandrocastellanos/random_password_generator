@@ -1,0 +1,13 @@
+[package]
+name = "random_password_generator"
+version = "0.1.0"
+authors = ["Alejandro Castellanos <alejandrocastellanos0827@gmail.com>"]
+edition = "2021"
+license = "MIT"
+description = "Rust library to generate random passwords, you can define whether the password will have alphabetical, numeric or special characters."
+
+[dependencies]
+rand = "0.8"
+
+[lib]
+crate-type = ["lib"]
